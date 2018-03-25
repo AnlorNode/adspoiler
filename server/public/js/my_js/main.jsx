@@ -1,4 +1,4 @@
-var socket = io("localhost:3000");
+var socket = io("http://185.69.154.252");
 var mes_obj = {}
 var batton;
 var Block_2 = React.createClass({
