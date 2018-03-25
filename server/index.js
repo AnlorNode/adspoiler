@@ -1,7 +1,7 @@
 var static = require("node-static");
 var file = new static.Server("./server/public");
 const ccxt = require("../server/modules/ccxt/ccxt.js");
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 3000;
 var app = require("http").createServer(handler);
 var io = require("socket.io")(app);
 var fs = require("fs");
